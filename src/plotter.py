@@ -15,6 +15,8 @@ def plot(name, fn, xrange=(-5.0, 5.0), yrange=(-5.0, 5.0), cols=78, lines=14):
             l = round((yrange[1] - y) / ysize)
             if l == line:
                 print('*', end='')
+            else:
+                print(' ', end='')
         print('\x1b[0m')
     print('+', '-' * (cols + 1), "\n", sep='')
 
