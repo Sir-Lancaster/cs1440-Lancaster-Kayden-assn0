@@ -44,7 +44,7 @@ Deliver:
 *(15% of your effort)*
 
 **Finally, you can write code!**
-
+During my testing I discovered that the function was not printing a blank space for when `l !=line`. After adding that change in the form of an else statement, the function worked propperly.
 Deliver:
 
 *   [ ] More or less working code.
@@ -57,6 +57,15 @@ Deliver:
 *(30% of your effort)*
 When running the code, it does not match the examples that it is supposed to. When you call the plot function something goes wrong that makes it graph it incorrectly.
 when I access any of the menu options it looks like all of plots are bound more or less to the y-axis and it prints an asterix for every point thati it is away from the y-axis.
+
+After examining the code it was discovered that there wass a missing else statement for when there was no line. This caused it to print an asterix even when it was not supposed to. 
+Here is the else statement added on line 18:
+```
+else:
+	print(' ', end='')
+```
+this allows the function to print a blank space when it is supposed to.
+
 Deliver:
 
 *   [ ] A set of test cases that you have personally run on your computer.
