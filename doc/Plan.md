@@ -55,7 +55,8 @@ Deliver:
 
 ## Phase 3: Testing and Debugging (tag name `tested`)
 *(30% of your effort)*
-
+When running the code, it does not match the examples that it is supposed to. When you call the plot function something goes wrong that makes it graph it incorrectly.
+when I access any of the menu options it looks like all of plots are bound more or less to the y-axis and it prints an asterix for every point thati it is away from the y-axis.
 Deliver:
 
 *   [ ] A set of test cases that you have personally run on your computer.
